@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import User from "./User.js";
+import User from "./user.js";
 import Note from "./Note.js";
 
 const createToken = (userId) => {
